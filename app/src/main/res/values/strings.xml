@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="About">Tasmima Sultana Reya
+                         171-15-8743</string>
+    <string name="About1">Udoy Deb Das
+                          171-15-8658</string>
+    <string name="About2">Taj Ul Islam Rinku
+                         171-15-8825</string>
+    <string name="About3">Mst. Eshita Khatun,
+                         Lecturer,
+                        Daffodil International University
+    </string>
+
+    <string name="email"> Email: reyaswarna11@gmail.com
+                         </string>
+    <string name="phone"> Mobile: 0152*****35
+                         </string>
+
+
+</resources>

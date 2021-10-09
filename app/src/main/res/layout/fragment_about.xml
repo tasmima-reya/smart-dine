@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AboutFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ff213b"
+            tools:context=".about_us">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textColor="#DCE2E4"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="25dp"
+                    android:text="About us"
+                    android:fontFamily="@font/roboto_medium"/>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Supervisor"
+                android:textColor="#DCE2E4"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:fontFamily="@font/chango"/>
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="177dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/mam" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="247dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="120dp"
+                android:fontFamily="@font/baloo"
+                android:text="@string/About3"
+                android:textAlignment="center"
+                android:textColor="#DCE2E4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Team Members"
+                android:textColor="#DCE2E4"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/chango"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/reya" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="229dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/About"
+                    android:textAlignment="center"
+                    android:textColor="#DCE2E4"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:fontFamily="@font/baloo"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ud" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="183dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/About1"
+                    android:textAlignment="center"
+                    android:textColor="#DCE2E4"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:fontFamily="@font/baloo"/>
+
+
+                <ImageView
+                    android:layout_width="155dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rinku" />
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="183dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/About2"
+                    android:textAlignment="center"
+                    android:textColor="#DCE2E4"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:fontFamily="@font/baloo"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</FrameLayout>
